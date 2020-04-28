@@ -37,7 +37,7 @@ SOFTWARE.
 #define LED3 8
 
 // Currently lit LED
-static int LitLED = 0;
+static unsigned int LitLED 0;
 
 // State of the switch
 static bool SwitchState = HIGH;
